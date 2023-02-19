@@ -23,6 +23,7 @@ def find_mismatch(text):
     return "Success"
 
 def main():
+    I = input()
     text = input()
     mismatch = find_mismatch(text)
     print(mismatch)
